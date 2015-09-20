@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="simpleServlet">
+         
+    <implementation class="org.com.myservlet.SimpleServlet"  />
+ 
+    <property name="alias" value="/helloservlet" />
+ 
+    <service>
+        <provide interface="javax.servlet.Servlet" />
+    </service>
+ 
+</component>
